@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\datas\datas\bin\Debug\net8.0\datas.exe
+C:\Users\luizr\source\repos\datas\datas\bin\Debug\net8.0\datas.deps.json
+C:\Users\luizr\source\repos\datas\datas\bin\Debug\net8.0\datas.runtimeconfig.json
+C:\Users\luizr\source\repos\datas\datas\bin\Debug\net8.0\datas.dll
+C:\Users\luizr\source\repos\datas\datas\bin\Debug\net8.0\datas.pdb
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.AssemblyInfo.cs
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.dll
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\refint\datas.dll
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.pdb
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\datas.genruntimeconfig.cache
+C:\Users\luizr\source\repos\datas\datas\obj\Debug\net8.0\ref\datas.dll

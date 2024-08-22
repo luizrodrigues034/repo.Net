@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.AssemblyInfo.cs
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\CDireto\CDireto\bin\Debug\net8.0\CDireto.exe
+C:\Users\luizr\source\repos\CDireto\CDireto\bin\Debug\net8.0\CDireto.deps.json
+C:\Users\luizr\source\repos\CDireto\CDireto\bin\Debug\net8.0\CDireto.runtimeconfig.json
+C:\Users\luizr\source\repos\CDireto\CDireto\bin\Debug\net8.0\CDireto.dll
+C:\Users\luizr\source\repos\CDireto\CDireto\bin\Debug\net8.0\CDireto.pdb
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.dll
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\refint\CDireto.dll
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.pdb
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\CDireto.genruntimeconfig.cache
+C:\Users\luizr\source\repos\CDireto\CDireto\obj\Debug\net8.0\ref\CDireto.dll

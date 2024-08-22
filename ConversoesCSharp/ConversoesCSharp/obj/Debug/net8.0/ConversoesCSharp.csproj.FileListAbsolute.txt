@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.AssemblyInfo.cs
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\bin\Debug\net8.0\ConversoesCSharp.exe
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\bin\Debug\net8.0\ConversoesCSharp.deps.json
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\bin\Debug\net8.0\ConversoesCSharp.runtimeconfig.json
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\bin\Debug\net8.0\ConversoesCSharp.dll
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\bin\Debug\net8.0\ConversoesCSharp.pdb
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.dll
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\refint\ConversoesCSharp.dll
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.pdb
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ConversoesCSharp.genruntimeconfig.cache
+C:\Users\luizr\source\repos\ConversoesCSharp\ConversoesCSharp\obj\Debug\net8.0\ref\ConversoesCSharp.dll

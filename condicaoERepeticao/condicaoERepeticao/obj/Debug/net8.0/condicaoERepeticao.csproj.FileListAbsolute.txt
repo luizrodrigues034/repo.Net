@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\bin\Debug\net8.0\condicaoERepeticao.exe
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\bin\Debug\net8.0\condicaoERepeticao.deps.json
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\bin\Debug\net8.0\condicaoERepeticao.runtimeconfig.json
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\bin\Debug\net8.0\condicaoERepeticao.dll
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\bin\Debug\net8.0\condicaoERepeticao.pdb
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.AssemblyInfo.cs
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.dll
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\refint\condicaoERepeticao.dll
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.pdb
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\condicaoERepeticao.genruntimeconfig.cache
+C:\Users\luizr\source\repos\condicaoERepeticao\condicaoERepeticao\obj\Debug\net8.0\ref\condicaoERepeticao.dll

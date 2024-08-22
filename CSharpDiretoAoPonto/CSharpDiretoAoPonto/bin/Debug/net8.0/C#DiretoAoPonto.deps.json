@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "C#DiretoAoPonto/1.0.0": {
+        "runtime": {
+          "C#DiretoAoPonto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C#DiretoAoPonto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

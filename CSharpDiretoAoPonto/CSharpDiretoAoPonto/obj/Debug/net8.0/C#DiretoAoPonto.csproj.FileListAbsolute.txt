@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\bin\Debug\net8.0\C#DiretoAoPonto.exe
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\bin\Debug\net8.0\C#DiretoAoPonto.deps.json
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\bin\Debug\net8.0\C#DiretoAoPonto.runtimeconfig.json
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\bin\Debug\net8.0\C#DiretoAoPonto.dll
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\bin\Debug\net8.0\C#DiretoAoPonto.pdb
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.AssemblyInfo.cs
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.dll
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\refint\C#DiretoAoPonto.dll
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.pdb
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\C#DiretoAoPonto.genruntimeconfig.cache
+C:\Users\luizr\source\repos\C#DiretoAoPonto\C#DiretoAoPonto\obj\Debug\net8.0\ref\C#DiretoAoPonto.dll

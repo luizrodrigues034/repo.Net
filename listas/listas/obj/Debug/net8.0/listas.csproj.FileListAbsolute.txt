@@ -1,0 +1,14 @@
+C:\Users\luizr\source\repos\listas\listas\bin\Debug\net8.0\listas.exe
+C:\Users\luizr\source\repos\listas\listas\bin\Debug\net8.0\listas.deps.json
+C:\Users\luizr\source\repos\listas\listas\bin\Debug\net8.0\listas.runtimeconfig.json
+C:\Users\luizr\source\repos\listas\listas\bin\Debug\net8.0\listas.dll
+C:\Users\luizr\source\repos\listas\listas\bin\Debug\net8.0\listas.pdb
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.AssemblyInfo.cs
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.dll
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\refint\listas.dll
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.pdb
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\listas.genruntimeconfig.cache
+C:\Users\luizr\source\repos\listas\listas\obj\Debug\net8.0\ref\listas.dll
