@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luizr\\source\\repos\\POO\\",
+  "WorkspaceRootPath": "C:\\Users\\luizr\\repo.Net\\POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\source\\repos\\poo\\poo\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\repo.net\\poo\\poo\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|solutionrelative:poo\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\source\\repos\\poo\\poo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\repo.net\\poo\\poo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|solutionrelative:poo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\source\\repos\\poo\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|c:\\users\\luizr\\repo.net\\poo\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6822140C-EAAB-409E-8C6B-438AB5B24BED}|POO\\POO.csproj|solutionrelative:poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,47 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Program.cs",
               "RelativeDocumentMoniker": "POO\\Program.cs",
-              "ToolTip": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Program.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Program.cs",
               "RelativeToolTip": "POO\\Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAQwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T10:07:15.393Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Estudante.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Estudante.cs",
-              "RelativeDocumentMoniker": "POO\\Estudante.cs",
-              "ToolTip": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Estudante.cs",
-              "RelativeToolTip": "POO\\Estudante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:00:35.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Pessoa.cs",
-              "RelativeDocumentMoniker": "POO\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\Pessoa.cs",
-              "RelativeToolTip": "POO\\Pessoa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T10:49:11.744Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -71,6 +44,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estudante.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Estudante.cs",
+              "RelativeDocumentMoniker": "POO\\Estudante.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Estudante.cs",
+              "RelativeToolTip": "POO\\Estudante.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:00:35.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Pessoa.cs",
+              "RelativeDocumentMoniker": "POO\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\Pessoa.cs",
+              "RelativeToolTip": "POO\\Pessoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T10:49:11.744Z"
             },
             {
               "$type": "Bookmark",

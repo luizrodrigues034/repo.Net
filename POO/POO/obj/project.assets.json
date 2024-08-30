@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\POO.csproj",
+      "projectUniqueName": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\POO.csproj",
       "projectName": "POO",
-      "projectPath": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\POO.csproj",
+      "projectPath": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\POO.csproj",
       "packagesPath": "C:\\Users\\luizr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luizr\\source\\repos\\POO\\POO\\obj\\",
+      "outputPath": "C:\\Users\\luizr\\repo.Net\\POO\\POO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luizr\\AppData\\Roaming\\NuGet\\NuGet.Config",
