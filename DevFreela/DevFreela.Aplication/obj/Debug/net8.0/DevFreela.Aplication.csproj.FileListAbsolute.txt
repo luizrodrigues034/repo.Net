@@ -1,0 +1,17 @@
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.csproj.AssemblyReference.cache
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.AssemblyInfoInputs.cache
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.AssemblyInfo.cs
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Aplication.deps.json
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Aplication.dll
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Aplication.pdb
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Core.dll
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Infrastructure.dll
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Core.pdb
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\bin\Debug\net8.0\DevFreela.Infrastructure.pdb
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreel.904C5906.Up2Date
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.dll
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\refint\DevFreela.Aplication.dll
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\DevFreela.Aplication.pdb
+C:\Users\luizr\source\repos\DevFreela\DevFreela.Aplication\obj\Debug\net8.0\ref\DevFreela.Aplication.dll
