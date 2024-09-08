@@ -12,6 +12,7 @@
           "DevFreela.Core": "1.0.0",
           "DevFreela.Infrastructure": "1.0.0",
           "FluentAssertions": "6.12.0",
+          "MediatR": "12.4.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -53,6 +54,14 @@
           }
         }
       },
+      "Dapper/2.1.35": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.35.13827"
+          }
+        }
+      },
       "FluentAssertions/6.12.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "6.0.1"
@@ -69,6 +78,26 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/12.4.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.4.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -915,8 +944,10 @@
       },
       "DevFreela.Aplication/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.35",
           "DevFreela.Core": "1.0.0",
-          "DevFreela.Infrastructure": "1.0.0"
+          "DevFreela.Infrastructure": "1.0.0",
+          "MediatR": "12.4.0"
         },
         "runtime": {
           "DevFreela.Aplication.dll": {}
@@ -930,6 +961,7 @@
       "DevFreela.Infrastructure/1.0.0": {
         "dependencies": {
           "DevFreela.Core": "1.0.0",
+          "MediatR": "12.4.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
@@ -958,6 +990,13 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
+    "Dapper/2.1.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "path": "dapper/2.1.35",
+      "hashPath": "dapper.2.1.35.nupkg.sha512"
+    },
     "FluentAssertions/6.12.0": {
       "type": "package",
       "serviceable": true,
@@ -971,6 +1010,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/12.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s8xhhvsTQqt7jI1XeVqcniiph/QoRmJb1qxVgk7UFpAgOzpzZ0VTl8zV+lFJgxISVqZuJRjmxF+P3AuHyelCrg==",
+      "path": "mediatr/12.4.0",
+      "hashPath": "mediatr.12.4.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",

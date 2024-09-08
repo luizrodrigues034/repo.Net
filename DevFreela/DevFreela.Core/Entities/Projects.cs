@@ -29,7 +29,7 @@ namespace DevFreela.Core.Entities
         public int FreelanceId { get; private set; }
         public decimal TotalCost { get; private set; }
         public DateTime CreatedAt { get; private set; }
-        public DateTime? IniciatedAt { get; set; }
+        public DateTime? StartedAt { get; set; }
         public DateTime? FinishidAt { get; set; }
         public ProjectsStatusEnum Status {  get; private set; }
         public List<ProjectsComment> Comments { get; private set; }
@@ -52,11 +52,13 @@ namespace DevFreela.Core.Entities
         }
         public void Starting()
         {
+            DateTime startedAt;
             if (Status == ProjectsStatusEnum.Created)
             {
                 Status = ProjectsStatusEnum.InProgress;
-                DateTime startedAt = DateTime.Now;
+                startedAt = DateTime.Now;
             }
+            
         }
         public void Update( string title, string description,decimal totalCost)
         {

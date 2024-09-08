@@ -43,11 +43,11 @@ namespace DevFreela.Infrastructure.Persistence.Migrations
                     b.Property<int>("FreelanceId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("IniciatedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("OwnedId")
                         .HasColumnType("int");
+
+                    b.Property<DateTime?>("StartedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");

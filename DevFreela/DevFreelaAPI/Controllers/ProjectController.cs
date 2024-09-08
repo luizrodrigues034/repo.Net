@@ -4,6 +4,15 @@ using DevFreelaAPI.Models;
 using Microsoft.Extensions.Options;
 using DevFreela.Aplication.Services.Interfaces;
 using DevFreela.Aplication.InputModels;
+using MediatR;
+using DevFreela.Aplication.Commands.CreateProjectCommand;
+using DevFreela.Aplication.Commands.CreateCommentCommand;
+using DevFreela.Aplication.Commands.DeleteProjectCommand;
+using DevFreela.Aplication.Commands.FinishProjectCommand;
+using DevFreela.Aplication.Commands.StartProjectCommand;
+using DevFreela.Aplication.Commands.UpdateProjectCommand;
+using DevFreela.Aplication.Querys.GetAllProjects;
+using DevFreela.Aplication.Querys.GetByIdProject;
 
 namespace DevFreelaAPI.Controllers
 {
@@ -17,24 +26,28 @@ namespace DevFreelaAPI.Controllers
         //IOptions eh uma interface em que o valor recebido pode ser fornecido posteriormente por meio de injecao de dependencia,
         //injencao de dependencio eh feita no builder.Services.Configure<Option>(builder.Configuration.GetSection("sectionNoJson")
         
-        private readonly IProjectService _projectService;
-        public ProjectController(IProjectService projectService)
+        
+        private readonly IMediator _mediator;
+        public ProjectController(IMediator mediator)
         {
-            _projectService = projectService;
+            
+            _mediator = mediator;
         }
         [HttpGet]
         //api/projects/query?=net core
-        public IActionResult Get(string query)
+        public async Task<IActionResult> Get( )
         {
-           var projectList = _projectService.GetAll(query);
+            var query = new GetAllProjectsQuery();
+            var projectList = await _mediator.Send(query);
             return Ok(projectList);
         }
 
         //passando id como parametro, fazendo com que a url mostre o id do usuario
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var project = _projectService.GetById(id);
+            var query = new GetByIdProjectQuery(id);
+            var project = await _mediator.Send(query);
             if (project == null) 
             { 
                 return NotFound();
@@ -43,15 +56,16 @@ namespace DevFreelaAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] NewProjectInputModel inputModel)
+        public async Task<IActionResult> Post([FromBody] CreateProjectCommand command)
         {
             //cadastro objeto
-            if (inputModel.Title.Length > 20)
+            if (command.Title.Length > 20)
             {
                 return BadRequest();
             }
-            var project = _projectService.Create(inputModel);
-            return CreatedAtAction(nameof(GetById), new { id = project }, inputModel);
+            //var id = _projectService.Create(inputModel);
+            var id = await _mediator.Send(command);
+            return CreatedAtAction(nameof(GetById), new { id = command }, command);
         }
         /*[HttpGet]
         public IActionResult GetSpecificProject(string query)
@@ -60,22 +74,23 @@ namespace DevFreelaAPI.Controllers
         }*/
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] ProjectUpdateInputModels inputModel)
+        public async Task<IActionResult> Put(int id, [FromBody] UpdateProjectCommand command)
         {
-            if (inputModel.Description.Length > 20)
+            if (command.Description.Length > 20)
             {
                 //atualizo o objeto
                 return BadRequest();
             }
-            _projectService.Update(inputModel);
+            await _mediator.Send(command);
 
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            _projectService.Delete(id);
+            var command = new FinishProjectCommand(id);
+            await _mediator.Send(command);
             return Ok();
         }
 
@@ -83,25 +98,27 @@ namespace DevFreelaAPI.Controllers
         [HttpPost("{id}/comments")]
 
         //posta comentarios
-        public IActionResult PostComment(int id, [FromBody] CreateCommentInputModels inputModel)
+        public async Task<IActionResult> PostComment(int id, [FromBody] CreateCommentCommand command)
         {
-            _projectService.CreateComment(inputModel);
+            await _mediator.Send(command);
             return NoContent();
         }
 
         //api/projects/id/start
         [HttpPut("{id}/start")]
-        public IActionResult Start(int id)
+        public async Task<IActionResult> Start(int id)
         {
-            _projectService.Start(id);
+            var command = new StartProjectCommand(id);
+            await _mediator.Send(command);
             return Ok();
         }
 
         //api/projects/id/finish
         [HttpPut("{id}/finish")]
-        public IActionResult Finish(int id)
+        public async Task<ActionResult> Finish(int id)
         {
-            _projectService.Finish(id);
+            var command = new DeleteProjectCommand(id);
+            await _mediator.Send(command);
             return NoContent();
         }
     }

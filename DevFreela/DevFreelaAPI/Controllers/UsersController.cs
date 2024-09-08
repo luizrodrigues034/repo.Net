@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DevFreela.API.Models;
 using DevFreelaAPI.Models;
-using DevFreela.Aplication.Services.Interfaces;
-using DevFreela.Aplication.InputModels;
+using MediatR;
+using DevFreela.Aplication.Querys.GetUser;
 
 
 namespace DevFreelaAPI.Controllers
@@ -10,24 +10,29 @@ namespace DevFreelaAPI.Controllers
     [Route("api/users")]
     public class UsersController : ControllerBase
     {
-        private readonly IUserService _userService;
-        public UsersController(IUserService userService)
+        
+        private readonly IMediator _mediator;
+        public UsersController(IMediator mediator)
         {
-            _userService = userService;
+            _mediator = mediator;
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            _userService.GetUser(id);
-            return Ok();
+        public async Task<IActionResult> GetById(int id)
+        {   var query = new GetUserQuery(id);
+            var user = await _mediator.Send(query);
+
+            if (user == null) {return NotFound();}
+
+            return Ok(user);
+
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] UserInputModel inputModel)
+        public async Task<IActionResult> Post([FromBody] CreateUserModel request)
         {
-            var user = _userService.AddUser(inputModel);
-            return CreatedAtAction(nameof(GetById), new { id = user }, inputModel);
+            var id = await _mediator.Send(request);
+            return CreatedAtAction(nameof(GetById), new { id = id }, request);
         }
 
         [HttpPut("{id}")]

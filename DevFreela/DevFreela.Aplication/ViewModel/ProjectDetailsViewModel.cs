@@ -23,6 +23,8 @@ namespace DevFreela.Aplication.ViewModel
             OwnedId = ownedId;
             TotalCost = totalCost;
             CreatedAt = createdAt;
+            OwnedFullName = ownedFullName;
+            FreelanceFullName = freelanceFullName;
         }
 
         public int Id { get; set; }
