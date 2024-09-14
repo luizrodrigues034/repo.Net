@@ -11,8 +11,6 @@ namespace DevFreela.Aplication.Querys.GetByIdProject
 {
     public class GetByIdProjectQuery : IRequest<List<ProjectDetailsViewModel>>
     {
-       
-
         public GetByIdProjectQuery(int id)
         {
             Id = id;
