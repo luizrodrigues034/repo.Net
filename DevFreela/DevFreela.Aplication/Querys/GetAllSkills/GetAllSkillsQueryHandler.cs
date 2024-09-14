@@ -11,28 +11,22 @@ using System.Threading.Tasks;
 using MediatR;
 using Dapper;
 using Microsoft.EntityFrameworkCore;
+using DevFreela.Core.Repositories;
+using DevFreela.Core.DTOs;
 
 namespace DevFreela.Aplication.Querys.GetAllSkills
 {
-    public class GetAllSkillsQueryHandler : IRequestHandler<GetAllSkillsQuery, List<SkillsViewModel>>
+    public class GetAllSkillsQueryHandler : IRequestHandler<GetAllSkillsQuery, List<SkillsDTO>>
         {
-        private readonly string _connectionString;
-        public GetAllSkillsQueryHandler(IConfiguration configuration)
+        private readonly ISkillsRepository _skillsRepository;
+        public GetAllSkillsQueryHandler(ISkillsRepository skillsRepository)
         {
-            _connectionString = configuration.GetConnectionString("DevFreelaCs");
+            _skillsRepository = skillsRepository;
         }
 
-        public async Task<List<SkillsViewModel>> Handle(GetAllSkillsQuery request, CancellationToken cancellationToken)
+        public async Task<List<SkillsDTO>> Handle(GetAllSkillsQuery request, CancellationToken cancellationToken)
         {
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                sqlConnection.Open();
-                var script = "SELECT Id, Description FROM Skills";
-
-                //Query -> Dapper, metodo de consulta, podemos utilizalo para alterar os dados tambem
-                var skills = await sqlConnection.QueryAsync<SkillsViewModel>(script);
-                return skills.ToList();
-            }
+            return await _skillsRepository.GetSkillsAsync();
 
         }
     }

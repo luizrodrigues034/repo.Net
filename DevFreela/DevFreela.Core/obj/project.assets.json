@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+      "projectUniqueName": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
       "projectName": "DevFreela.Core",
-      "projectPath": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+      "projectPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
       "packagesPath": "C:\\Users\\luizr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Core\\obj\\",
+      "outputPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luizr\\AppData\\Roaming\\NuGet\\NuGet.Config",

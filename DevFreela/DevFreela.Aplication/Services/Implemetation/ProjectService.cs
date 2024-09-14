@@ -64,7 +64,7 @@ namespace DevFreela.Aplication.Services.Implemetation
             var projects = _dbContext.Projects;
 
             var projectViewModel = _dbContext.Projects
-                .Select(p => new ProjectsViewModel(p.Id, p.Title, p.CreatedAt)).ToList();
+                .Select(p => new ProjectsViewModel(p.Id, p.Title)).ToList();
             return projectViewModel;
             
         }
@@ -72,7 +72,7 @@ namespace DevFreela.Aplication.Services.Implemetation
         {
             var projectViewModel = _dbContext.Projects
                 .Where(p => p.Title == query).
-                Select(p => new ProjectsViewModel(p.Id ,p.Title, p.CreatedAt)).ToList();
+                Select(p => new ProjectsViewModel(p.Id ,p.Title)).ToList();
             return projectViewModel;
         }
 

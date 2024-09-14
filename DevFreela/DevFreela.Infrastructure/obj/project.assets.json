@@ -46,6 +46,19 @@
           }
         }
       },
+      "Dapper/2.1.35": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1586,6 +1599,27 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Dapper/2.1.35": {
+      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "type": "package",
+      "path": "dapper/2.1.35",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.35.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4176,6 +4210,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Dapper >= 2.1.35",
       "DevFreela.Core >= 1.0.0",
       "MediatR >= 12.4.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
@@ -4189,11 +4224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
       "projectName": "DevFreela.Infrastructure",
-      "projectPath": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\luizr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luizr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4211,8 +4246,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-              "projectPath": "C:\\Users\\luizr\\source\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+            "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+              "projectPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
             }
           }
         }
@@ -4232,6 +4267,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.35, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.4.0, )"
