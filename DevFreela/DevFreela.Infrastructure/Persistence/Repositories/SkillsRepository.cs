@@ -1,7 +1,9 @@
 ﻿using Dapper;
 using DevFreela.Core.DTOs;
+using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,8 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
     public class SkillsRepository : ISkillsRepository
     {
         private readonly string _connectionString;
-        public SkillsRepository(IConfiguration configuration)
+        private readonly DevFreelaDbContext _dbContext;
+        public SkillsRepository(IConfiguration configuration, DevFreelaDbContext dbContext)
         {
             _connectionString = configuration.GetConnectionString("DevFreelaCs");
         }
@@ -30,6 +33,11 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
                 var skills = await sqlConnection.QueryAsync<SkillsDTO>(script);
                 return skills.ToList();
             }
+        }
+        public async Task CreateUser(Users user)
+        {
+            await _dbContext.Users.AddAsync(user);
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

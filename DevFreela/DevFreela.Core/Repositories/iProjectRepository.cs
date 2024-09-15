@@ -13,6 +13,9 @@ namespace DevFreela.Core.Repositories
         Task<List<ProjectDTO>> GetAllAsync();
         Task<Projects> GetDetailsById(int id);
         Task PosteCommentAsync(ProjectsComment comment);
+        Task CreateProject(Projects project);
+        Task SaveChangesAsync();
+        Task StartProjectAsync(Projects project);
 
     }
 }

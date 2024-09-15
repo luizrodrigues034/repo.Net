@@ -22,5 +22,10 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         {
             return _dbContext.Users.SingleOrDefault(x => x.Id == id);
         }
+        public async Task CreateUser(Users user)
+        {
+            _dbContext.Users.Add(user);
+            _dbContext.SaveChanges();
+        }
     }
 }

@@ -11,6 +11,7 @@ using Dapper;
 using DevFreela.Core.DTOs;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
+using Azure.Core;
 
 namespace DevFreela.Infrastructure.Persistence.Repositories
 {
@@ -49,7 +50,27 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             await _dbContext.ProjectsComments.AddAsync(comment);
             await _dbContext.SaveChangesAsync();
         }
-    }
+
+        public async Task CreateProject(Projects project)
+        {
+            await _dbContext.Projects.AddAsync(project);
+            //PERSISTIR OS DADOS
+            await _dbContext.SaveChangesAsync();
+        }
+        public async Task SaveChangesAsync()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+        public async Task StartProjectAsync(Projects project)
+        {
+            using (var sqlConnection = new SqlConnection(_connectionString))
+            {
+                sqlConnection.Open();
+                var script = "UPDATE Project SET Staus = @status, StartedAt = @startedAt WHERE Id = @id";
+                await sqlConnection.ExecuteAsync(script, new { status = project.Status, startedat = project.StartedAt, project.Id});
+            }
+        }
+    }   
 
 
 }
