@@ -1,6 +1,8 @@
 ﻿using Azure.Core;
 using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +27,17 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         public async Task CreateUser(Users user)
         {
             _dbContext.Users.Add(user);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task<Users> Login(string email, string encripPass)
+        {
+            var userMail =  await _dbContext.Users.FirstOrDefaultAsync(p => p.Email == email);
+            if( userMail.Password == encripPass)
+            {
+                return userMail;
+            }
+            return null;
         }
     }
 }

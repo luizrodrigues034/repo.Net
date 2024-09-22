@@ -11,5 +11,6 @@ namespace DevFreela.Core.Repositories
     {
         Task<Users> GetUserAsync(int id);
         Task CreateUser(Users user);
+        Task<Users> Login(string username, string encripPass);
     }
 }

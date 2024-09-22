@@ -2,8 +2,7 @@
 using DevFreela.API.Models;
 using DevFreelaAPI.Models;
 using Microsoft.Extensions.Options;
-using DevFreela.Aplication.Services.Interfaces;
-using DevFreela.Aplication.InputModels;
+
 using MediatR;
 using DevFreela.Aplication.Commands.CreateProjectCommand;
 using DevFreela.Aplication.Commands.CreateCommentCommand;
@@ -13,10 +12,14 @@ using DevFreela.Aplication.Commands.StartProjectCommand;
 using DevFreela.Aplication.Commands.UpdateProjectCommand;
 using DevFreela.Aplication.Querys.GetAllProjects;
 using DevFreela.Aplication.Querys.GetByIdProject;
+using ServiceStack;
+using Microsoft.AspNetCore.Authorization;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace DevFreelaAPI.Controllers
 {
     [Route("api/projects")]
+    
     public class ProjectController : Controller
     {
         //ctor
@@ -35,6 +38,7 @@ namespace DevFreelaAPI.Controllers
         }
         [HttpGet]
         //api/projects/query?=net core
+        [AllowAnonymous]
         public async Task<IActionResult> Get( )
         {
             var query = new GetAllProjectsQuery();
@@ -42,8 +46,10 @@ namespace DevFreelaAPI.Controllers
             return Ok(projectList);
         }
 
-        //passando id como parametro, fazendo com que a url mostre o id do usuario
+        //passando id como parametro, fazendo com que a url mostre o projeto pelo id
+
         [HttpGet("{id}")]
+        [Authorize(Roles = "Client, Freelancer")]
         public async Task<IActionResult> GetById(int id)
         {
             var query = new GetByIdProjectQuery(id);
@@ -56,16 +62,16 @@ namespace DevFreelaAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Client")]
         public async Task<IActionResult> Post([FromBody] CreateProjectCommand command)
         {
+            
             //cadastro objeto
-            if (command.Title.Length > 20)
-            {
-                return BadRequest();
-            }
+           
             //var id = _projectService.Create(inputModel);
             var id = await _mediator.Send(command);
             return CreatedAtAction(nameof(GetById), new { id = command }, command);
+              
         }
         /*[HttpGet]
         public IActionResult GetSpecificProject(string query)
@@ -74,6 +80,7 @@ namespace DevFreelaAPI.Controllers
         }*/
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Client")]
         public async Task<IActionResult> Put(int id, [FromBody] UpdateProjectCommand command)
         {
             if (command.Description.Length > 20)
@@ -87,6 +94,7 @@ namespace DevFreelaAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Client")]
         public async Task<IActionResult> Delete(int id)
         {
             var command = new FinishProjectCommand(id);
@@ -97,15 +105,19 @@ namespace DevFreelaAPI.Controllers
         //api/projects/id/comments
         [HttpPost("{id}/comments")]
 
+        [Authorize(Roles = "Client, Freelancer")]
+
         //posta comentarios
         public async Task<IActionResult> PostComment(int id, [FromBody] CreateCommentCommand command)
         {
+           
             await _mediator.Send(command);
             return NoContent();
         }
 
         //api/projects/id/start
         [HttpPut("{id}/start")]
+        [Authorize(Roles = "Client")]
         public async Task<IActionResult> Start(int id)
         {
             var command = new StartProjectCommand(id);
@@ -115,6 +127,7 @@ namespace DevFreelaAPI.Controllers
 
         //api/projects/id/finish
         [HttpPut("{id}/finish")]
+        [Authorize(Roles = "Client")]
         public async Task<ActionResult> Finish(int id)
         {
             var command = new DeleteProjectCommand(id);
