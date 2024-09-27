@@ -33,7 +33,10 @@ namespace DevFreela.Core.Entities
         public DateTime? FinishidAt { get; set; }
         public ProjectsStatusEnum Status {  get; private set; }
         public List<ProjectsComment> Comments { get; private set; }
-      
+
+        public Users OwnedTest { get;  set; }
+        public Users FreelanceTest { get;  set; }
+
 
         public void Cancel()
         {

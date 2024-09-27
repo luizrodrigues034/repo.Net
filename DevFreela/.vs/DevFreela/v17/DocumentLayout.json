@@ -3,76 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\luizr\\repo.Net\\DevFreela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreelaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|solutionrelative:devfreelaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreelaapi\\filters\\validationfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|solutionrelative:devfreelaapi\\filters\\validationfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreelaapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|solutionrelative:devfreelaapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreelaapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|solutionrelative:devfreelaapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreelaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{282D56A6-6794-455A-B37A-12B25A90DAC9}|DevFreelaAPI\\DevFreelaAPI.csproj|solutionrelative:devfreelaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.infrastructure\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\commands\\loginusercommand\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\commands\\loginusercommand\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\entities\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entities\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\devfreela.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\devfreela.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\querys\\getbyidproject\\getbyidprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\querys\\getbyidproject\\getbyidprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.infrastructure\\devfreela.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\devfreela.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.infrastructure\\persistence\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\validators\\createusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\validators\\createusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B70481-371C-4EA2-878C-347DCBE2D9C5}|DevFreela.UnitTest\\DevFreela.UnitTest.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.unittest\\application\\query\\getallskillsqueryhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B70481-371C-4EA2-878C-347DCBE2D9C5}|DevFreela.UnitTest\\DevFreela.UnitTest.csproj|solutionrelative:devfreela.unittest\\application\\query\\getallskillsqueryhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\commands\\loginusercommand\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\commands\\loginusercommand\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\querys\\getbyidproject\\getbyidprojectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\querys\\getbyidproject\\getbyidprojectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.aplication\\viewmodel\\loginuserviwer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74909A5-9A13-47DC-A35D-40AEB9A78F11}|DevFreela.Aplication\\DevFreela.Aplication.csproj|solutionrelative:devfreela.aplication\\viewmodel\\loginuserviwer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B70481-371C-4EA2-878C-347DCBE2D9C5}|DevFreela.UnitTest\\DevFreela.UnitTest.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.unittest\\application\\query\\getallprojectsqueryhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B70481-371C-4EA2-878C-347DCBE2D9C5}|DevFreela.UnitTest\\DevFreela.UnitTest.csproj|solutionrelative:devfreela.unittest\\application\\query\\getallprojectsqueryhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.core\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9856C3-A6A1-498C-AA86-CDACC2DB78C5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\luizr\\repo.net\\devfreela\\devfreela.infrastructure\\persistence\\repositories\\skillsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33BECD9-97E0-4830-9EE5-7512BD8DFF4A}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\repositories\\skillsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,225 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "DevFreelaAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Program.cs",
-              "RelativeToolTip": "DevFreelaAPI\\Program.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAswEwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:55:55.727Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Controllers\\ProjectController.cs",
-              "RelativeDocumentMoniker": "DevFreelaAPI\\Controllers\\ProjectController.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Controllers\\ProjectController.cs",
-              "RelativeToolTip": "DevFreelaAPI\\Controllers\\ProjectController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T20:44:33.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Entities\\Users.cs",
               "RelativeDocumentMoniker": "DevFreela.Core\\Entities\\Users.cs",
               "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Entities\\Users.cs",
               "RelativeToolTip": "DevFreela.Core\\Entities\\Users.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAYAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T17:41:12.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DevFreela.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-              "RelativeToolTip": "DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-19T17:35:50.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DevFreela.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
-              "RelativeDocumentMoniker": "DevFreela.Core\\DevFreela.Core.csproj",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
-              "RelativeToolTip": "DevFreela.Core\\DevFreela.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-19T17:35:49.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwBkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:11:40.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommand.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\Commands\\CreateUser\\CreateUserCommand.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:05:44.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValidationFilters.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Filters\\ValidationFilters.cs",
-              "RelativeDocumentMoniker": "DevFreelaAPI\\Filters\\ValidationFilters.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Filters\\ValidationFilters.cs",
-              "RelativeToolTip": "DevFreelaAPI\\Filters\\ValidationFilters.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:48:33.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateUserCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Validators\\CreateUserCommandValidator.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\Validators\\CreateUserCommandValidator.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Validators\\CreateUserCommandValidator.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\Validators\\CreateUserCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:39:19.405Z"
+              "WhenOpened": "2024-09-25T10:31:50.471Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "DevFreelaAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "DevFreelaAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwCkAAAAAAAAA",
+              "Title": "Projects.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Entities\\Projects.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Entities\\Projects.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Entities\\Projects.cs",
+              "RelativeToolTip": "DevFreela.Core\\Entities\\Projects.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwCQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:23:06.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginUserViwer.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\ViewModel\\LoginUserViwer.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\ViewModel\\LoginUserViwer.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\ViewModel\\LoginUserViwer.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\ViewModel\\LoginUserViwer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:54:17.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommand.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommand.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommand.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:46:24.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommandHandler.cs",
-              "RelativeToolTip": "DevFreela.Aplication\\Commands\\LoginUserCommand\\LoginUserCommandHandler.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAowBcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:46:24.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DevFreela.Core\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "DevFreela.Core\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:46:08.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Authentication\\IAuthService.cs",
-              "RelativeDocumentMoniker": "DevFreela.Core\\Authentication\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Authentication\\IAuthService.cs",
-              "RelativeToolTip": "DevFreela.Core\\Authentication\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:46:02.778Z"
+              "WhenOpened": "2024-09-25T10:16:19.204Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Authentication\\AuthService.cs",
-              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Authentication\\AuthService.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Authentication\\AuthService.cs",
-              "RelativeToolTip": "DevFreela.Infrastructure\\Authentication\\AuthService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAA1wDMAAAAzAAAA",
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:45:53.86Z"
+              "WhenOpened": "2024-09-25T09:49:45.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBkAAAAJAAAA",
+              "DocumentIndex": 7,
+              "Title": "GetByIdProjectQuery.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQuery.cs",
+              "RelativeDocumentMoniker": "DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQuery.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQuery.cs",
+              "RelativeToolTip": "DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T01:58:13.228Z"
+              "WhenOpened": "2024-09-25T09:49:26.044Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "DevFreelaAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreelaAPI\\appsettings.json",
-              "RelativeToolTip": "DevFreelaAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-14T23:10:23.447Z"
+              "Title": "GetByIdProjectQueryHandler.Cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQueryHandler.Cs",
+              "RelativeDocumentMoniker": "DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQueryHandler.Cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQueryHandler.Cs",
+              "RelativeToolTip": "DevFreela.Aplication\\Querys\\GetByIdProject\\GetByIdProjectQueryHandler.Cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:48:55.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetByIdProjectQueryTest.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs",
+              "RelativeToolTip": "DevFreela.UnitTest\\Application\\Query\\GetByIdProjectQueryTest.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwDEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:36:30.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SkillsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\SkillsRepository.cs",
+              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\Repositories\\SkillsRepository.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Infrastructure\\Persistence\\Repositories\\SkillsRepository.cs",
+              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\Repositories\\SkillsRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:17:22.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllSkillsQueryHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetAllSkillsQueryHandlerTest.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTest\\Application\\Query\\GetAllSkillsQueryHandlerTest.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetAllSkillsQueryHandlerTest.cs",
+              "RelativeToolTip": "DevFreela.UnitTest\\Application\\Query\\GetAllSkillsQueryHandlerTest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA2wB8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:13:43.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectDTO.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DTOs\\ProjectDTO.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\DTOs\\ProjectDTO.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\DTOs\\ProjectDTO.cs",
+              "RelativeToolTip": "DevFreela.Core\\DTOs\\ProjectDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:57:45.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Repositories\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Repositories\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.Core\\Repositories\\IProjectRepository.cs",
+              "RelativeToolTip": "DevFreela.Core\\Repositories\\IProjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:49:27.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllProjectsQueryHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetAllProjectsQueryHandlerTest.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTest\\Application\\Query\\GetAllProjectsQueryHandlerTest.cs",
+              "ToolTip": "C:\\Users\\luizr\\repo.Net\\DevFreela\\DevFreela.UnitTest\\Application\\Query\\GetAllProjectsQueryHandlerTest.cs",
+              "RelativeToolTip": "DevFreela.UnitTest\\Application\\Query\\GetAllProjectsQueryHandlerTest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:36:46.806Z"
             }
           ]
         }

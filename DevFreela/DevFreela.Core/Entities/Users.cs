@@ -25,6 +25,10 @@ namespace DevFreela.Core.Entities
             FreelanceProjects = new List<Projects>();
 
         }
+        public Users(string fullName)
+        {
+            FullName = fullName;
+        }
         public string Role { get; private set; }
         public int Id { get; private set; }
         public string FullName { get; private set; }
@@ -46,6 +50,8 @@ namespace DevFreela.Core.Entities
 
 
 
+
+
         //atributos Name, email, aniversario, Data de criacao da conta, lista de userskills (aq devemos criar a user skills(entidade) com idUser, e idSkils)
         //lista de projetos(classe) para contratantes e outra para freelancer, e um bool Active
         //Na entidade projetos devemos criar alguns ateributos
@@ -55,6 +61,6 @@ namespace DevFreela.Core.Entities
 
         //No ProjectStatus enum, definimos Created, emProgresso, Suspenso, Cancelado, Finalizado com valores inteiros
         //No ProjectComment conteudo, idProject, IdUser, Data do comentario
-        
+
     }
 }

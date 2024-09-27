@@ -38,11 +38,14 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         }
         public async Task<Projects> GetDetailsById(int id)
         {
-            return await _dbContext.Projects
-                .Include(p => p.Owned)
-                .Include(p => p.Freelance)
-                .SingleOrDefaultAsync(p => p.Id == id);
-             
+               return await _dbContext.Projects
+                    .Include(p => p.Owned)
+                    .Include(p => p.Freelance)
+                    .SingleOrDefaultAsync(p => p.Id == id);
+
+            
+
+
         }
 
         public async Task PosteCommentAsync(ProjectsComment comment)

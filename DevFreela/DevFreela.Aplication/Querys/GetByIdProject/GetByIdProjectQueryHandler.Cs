@@ -34,8 +34,8 @@ namespace DevFreela.Aplication.Querys.GetByIdProject
                 projects.OwnedId,
                 projects.TotalCost,
                 projects.CreatedAt,
-                projects.Owned.FullName,
-                projects.Freelance.FullName
+                projects.OwnedTest.FullName,
+                projects.FreelanceTest.FullName
                 );
             return projectDetails;
         }
